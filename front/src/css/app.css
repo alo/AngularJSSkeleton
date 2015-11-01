@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+body {
+  font: 13px Roboto, sans-serif;
+  color: #333; }
+
+  .app-content-body{
+    width: 90% !important;
+  }
+
+.app-aside {
+  width: 200px;
+  float: left; }
+
+.navi-wrap {
+  padding: 20px; }
+
+.app-content-body {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px; }
+
+.app-content {
+  margin-left: 200px; }
+  .app-content .app-content-body {
+    float: left;
+    width: 100%;
+    padding-bottom: 50px; }
+
+.app-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1005;
+  margin-left: 200px; }
+

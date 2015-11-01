@@ -1,0 +1,21 @@
+  <!-- navbar -->
+  <div data-ng-include=" 'app/core/commons/blocks/header.html' " class="app-header navbar">
+  </div>
+  <!-- / navbar -->
+
+  <!-- menu -->
+  <div data-ng-include=" 'app/core/commons/blocks/aside.html' " class="app-aside hidden-xs" >
+  </div>
+  <!-- / menu -->
+
+  <!-- view -->
+  <div class="app-content" >
+    <div class="app-content-body app-content-full fade-in-up" ui-view>
+    </div>
+  </div>
+  <!-- / view -->
+  <!-- navbar -->
+  <div class="app-footer navbar navbar-fixed-bottom bg-light lt b-t" ui-view="footer">
+    
+  </div>
+  <!-- /navbar -->
