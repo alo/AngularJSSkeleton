@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "initApp": "npm install && cd ../front/ && npm install && grunt dev:init && cd ../back/ && npm run start",
+    "initApp": "npm install && cd ../front/ && npm install && node_modules/grunt-cli/bin/grunt dev:init && cd ../back/ && npm run start",
     "start": "nodemon server.js"
   },
   "author": "@alodev",
