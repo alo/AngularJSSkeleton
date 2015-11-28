@@ -25,7 +25,6 @@
                     .otherwise('/app/baseEntity');
 
                 $stateProvider
-
                     .state('app', {
                         abstract: true,
                         url: '/app',

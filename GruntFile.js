@@ -1,8 +1,5 @@
 module.exports = function(grunt) {
 
-    //PROD
-    //grunt.loadNpmTasks('grunt-ng-annotate');
-
     var gtx = require('gruntfile-gtx').wrap(grunt);
     gtx.loadAuto();
 
@@ -15,8 +12,6 @@ module.exports = function(grunt) {
 
 
     //TODO:: ADD PRODUCTION TASK
-    //gtx.alias('build:prod', ['clean:dist','copy:dist','recess:min','ngAnnotate:di',
-    //                         'concat:annotated','uglify:dist','clean:prod']);
 
     // tast to test angular new version
     gtx.alias('dev:update', ['clean:angular', 'copy:angular']);

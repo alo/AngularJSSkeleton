@@ -1,5 +1,4 @@
 // config
-
 var app =
 angular.module('app')
 
@@ -10,8 +9,6 @@ angular.module('app')
         "homeState" : "app.inicio",
         "url" : window.location.origin
 	})
-
-
 
     //INTERCEPTOR POR $HHTP ERRORS
     .config(['$httpProvider', function ($httpProvider) {
@@ -30,7 +27,7 @@ angular.module('app')
                     return $q.reject(rejection);
                 }
             };
-        }
+        };
         $httpProvider.interceptors.push(checkResponse);
 
 }])

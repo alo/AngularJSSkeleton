@@ -13,7 +13,6 @@ Bootstrap and Fontawesome for layouts and CSS.
 ## Start
 
 ```bash
-$ cd back/
 $ npm run initApp
 ```
 
