@@ -30,6 +30,6 @@ angular.module('app')
         };
         $httpProvider.interceptors.push(checkResponse);
 
-}])
+}]);
 
 

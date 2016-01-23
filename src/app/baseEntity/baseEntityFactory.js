@@ -1,7 +1,7 @@
 (function(){
     'use_strict';
 
-    app
+    angular.module('baseEntity')
         .factory('baseEntityFactory', baseEntityFactory);
 
         baseEntityFactory.$inject = [ ];

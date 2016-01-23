@@ -1,7 +1,7 @@
 (function(){
     'use_strict';
 
-    app
+    angular.module('awesomeEntity')
 
         .controller('awesomeEntityController', awesomeEntityController);
 
